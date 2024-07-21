@@ -1,0 +1,87 @@
+@font-face {
+    font-family:'S-Core Dream';
+    font-weight: 100;
+    src: url('fonts/SCDream1.woff') format('woff'),
+    url('fonts/SCDream1.otf'),
+    url('fonts/SCDream1.ttf') format('truetype'),
+    url('fonts/SCDream1.eot');
+}
+
+@font-face {
+    font-family:'S-Core Dream';
+    font-weight: 200;
+    src: url('fonts/SCDream2.woff') format('woff'),
+    url('fonts/SCDream2.otf'),
+    url('fonts/SCDream2.ttf') format('truetype'),
+    url('fonts/SCDream2.eot');
+}
+
+@font-face {
+    font-family:'S-Core Dream';
+    font-weight: 300;
+    font-style: normal;
+    src: url('fonts/SCDream3.woff') format('woff'),
+    url('fonts/SCDream3.otf'),
+    url('fonts/SCDream3.ttf') format('truetype'),
+    url('fonts/SCDream3.eot');
+}
+
+@font-face {
+    font-family:'S-Core Dream';
+    font-weight: 400;
+    src: url('fonts/SCDream4.woff') format('woff'),
+    url('fonts/SCDream4.otf'),
+    url('fonts/SCDream4.ttf') format('truetype'),
+    url('fonts/SCDream4.eot');
+}
+
+@font-face {
+    font-family:'S-Core Dream';
+    font-weight: 500;
+    src: url('fonts/SCDream5.woff') format('woff'),
+    url('fonts/SCDream5.otf'),
+    url('fonts/SCDream5.ttf') format('truetype'),
+    url('fonts/SCDream5.eot');
+}
+
+@font-face {
+    font-family:'S-Core Dream';
+    font-weight: bold;
+    src: url('fonts/SCDream6.woff') format('woff'),
+    url('fonts/SCDream6.otf'),
+    url('fonts/SCDream6.ttf') format('truetype'),
+    url('fonts/SCDream6.eot');
+}
+
+@font-face {
+    font-family:'S-Core Dream';
+    font-weight: 700;
+    src: url('fonts/SCDream7.woff') format('woff'),
+    url('fonts/SCDream7.otf'),
+    url('fonts/SCDream7.ttf') format('truetype'),
+    url('fonts/SCDream7.eot');
+}
+
+@font-face {
+    font-family:'S-Core Dream';
+    font-weight: 800;
+    src: url('fonts/SCDream8.woff') format('woff'),
+    url('fonts/SCDream8.otf'),
+    url('fonts/SCDream8.ttf') format('truetype'),
+    url('fonts/SCDream8.eot');
+}
+
+@font-face {
+    font-family:'S-Core Dream';
+    font-weight: 900;
+    src: url('fonts/SCDream9.woff') format('woff'),
+    url('fonts/SCDream9.otf'),
+    url('fonts/SCDream9.ttf') format('truetype'),
+    url('fonts/SCDream9.eot');
+}
+
+
+
+body {
+	font-family: "S-Core Dream","Noto Sans KR","Noto Sans",sans-serif,"Roboto";
+}
