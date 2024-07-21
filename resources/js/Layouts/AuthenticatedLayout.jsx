@@ -8,9 +8,9 @@ const AuthenticatedLayout = (props) => {
   return (
     <>
         <HeaderLayout />
-        <main className="container-fluid">
-          {props.children}
-        </main>
+          <main className="container-fluid">
+            {props.children}
+          </main>
         <FooterLayout/>
       
     </>
