@@ -5,16 +5,17 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\AuthSessionController;
 
 
+Route::view('/', 'app')->name('main');
+// Route::get('/', function () {
+//     return view('app');
+// })->middleware('auth:sanctum')->name('main');
+
+
 Route::view('/auth', 'app')->name('main')->name('login');
 // Route::get('/auth', function () {
 //     return view('app');
 // })->name('login');
 
-
-Route::view('/', 'app')->name('main');
-// Route::get('/', function () {
-//     return view('app');
-// })->middleware('auth:sanctum')->name('main');
 
 
 Route::prefix('/approval')->group(function () {
@@ -23,6 +24,7 @@ Route::prefix('/approval')->group(function () {
 
     Route::view('/list/formList', 'app')->name('approval.formList');
 });
+
 
 Route::prefix('/auth')->group(function () {
     Route::controller(AuthSessionController::class)->group(function () {
