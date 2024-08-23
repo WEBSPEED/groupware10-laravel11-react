@@ -7,7 +7,21 @@ export default defineConfig({
         laravel({
             input: ['resources/css/app.css', 'resources/js/app.jsx'],
             refresh: true,
+            buildDirectory: 'assets',
         }),
         react(),
-    ],
+    ],    
+    
+    //build 시에 모든 console.log를 제거
+    build: {
+        // minify: 'terser',   // esbuild
+        terserOptions: {
+            compress: {
+                drop_console: true,
+                drop_debugger: true
+            }
+        },
+        assetsDir: '.'
+    },
+
 });

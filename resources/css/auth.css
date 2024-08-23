@@ -62,7 +62,7 @@
 .loading_msg .ps_msg em {position:absolute;display:inline-block;top:0px;left:0px;width:1.4rem;height:100%}
 .loading_msg .ps_msg .ps_txt {padding-left:1.4rem;}
 
-.loading_msg .ps_msg.ps_error em {background:url('/wcug-includes/assets/images/icon/icon_ext.png') no-repeat center center;}
+/* .loading_msg .ps_msg.ps_error em {background:url('/wcug-includes/assets/images/icon/icon_ext.png') no-repeat center center;} */
 .loading_msg .ps_msg.ps_ok em.ps_ico {background-image:none;} 
 .loading_msg .ps_msg.ps_ok em {width:1.8rem;}
 .loading_msg .ps_msg.ps_ok em .fa-spinner {left:0px;top:0px;margin:0px;width:1.8rem;height:100%;}
@@ -394,7 +394,7 @@ body {
 	padding-left: .25rem;
 }
 
-.loading_msg .ps_msg.ps_error em {background:url('/wcug-includes/assets/images/icon/icon_ext.png') no-repeat center center;}
+/* .loading_msg .ps_msg.ps_error em {background:url('/wcug-includes/assets/images/icon/icon_ext.png') no-repeat center center;} */
 .loading_msg .ps_msg.ps_ok em.ps_ico {background-image:none;} 
 .loading_msg .ps_msg.ps_ok em {width:1.4rem;}
 .loading_msg .ps_msg.ps_ok em .fa-spinner {
@@ -749,7 +749,7 @@ button#QRLogin::before{
 	overflow: hidden;
     display: inline-block;
     text-indent: -999px;
-    background-image: url(../images/spr_img_v9.png);
+    /* background-image: url(../images/spr_img_v9.png); */
     background-repeat: no-repeat;
 }
 .qrLoginMac {

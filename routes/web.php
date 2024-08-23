@@ -5,10 +5,10 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Auth\AuthSessionController;
 
 
-Route::view('/', 'app')->name('main');
-// Route::get('/', function () {
-//     return view('app');
-// })->middleware('auth:sanctum')->name('main');
+// Route::view('/', 'app')->name('main');
+Route::get('/', function () {
+    return view('app');
+});//->middleware('auth:sanctum')->name('main');
 
 
 Route::view('/auth', 'app')->name('main')->name('login');
